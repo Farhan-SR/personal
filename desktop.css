@@ -1,0 +1,112 @@
+/* for desktop */
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 66.66%;}
+    .col-8{width: 75%;}
+    .col-8{width: 83.33%;}
+    .col-8{width: 91.66%;}
+    .col-8{width: 100%;}
+ 
+
+    .nav-logo{
+        text-align: left;
+    }
+.nav-heading h1{
+    text-align: justify;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    padding: 5px 10px;
+    background-color:  transparent;
+}
+
+/* profile start here */
+
+.profile .top-weather-icon{
+  
+    right: 50px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+    }
+    .profile .top-weather-icon:hover{
+        transform: rotate(360deg);
+        width: 140px;
+        }
+
+.profile-desc p{
+            color: gray;
+            text-align: center;
+         margin-bottom: 20px;
+            margin: 0 auto ;
+        }
+        
+.profile .bottom-weather-icon{
+      
+            left: 40px;
+            bottom: 15px;
+            width: 120px;
+            transition: width 2s, transform 2s;
+            }
+            .profile .bottom-weather-icon:hover{
+                transform: rotate(360deg);
+                width: 140px;
+                }
+        
+/* profile end here */
+
+/* about me start */
+
+.about-me-image{
+ margin-top: 100px;
+}
+.about-me-desc p{
+    text-align: left;
+}
+
+
+.about-me-image img{
+    height: 390px;
+    width: 350px;
+}
+/* about me end */
+/* 
+achievements contact start here */
+.contact{
+    padding-left: 50px;
+}
+
+/* more ways to contact */
+.contact-link{
+    position: relative;
+}
+.midea-btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 150px;
+}
+
+
+/* 
+achievements contact end here */
+
+
+/* 
+footer start */
+
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 15px 0;
+    margin: 10px;
+}
